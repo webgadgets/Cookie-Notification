@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COOKIE NOTIFICATION</title>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="dist/cookie-notification.js"></script>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                background-color: #eee;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cookies notifications</h1>
+        This plugin displays notification using cookies
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        <script>
+            $.wgCookiesNotification({
+                titleText: 'We use cookies',
+                acceptButton: 'ok',
+                readMoreButton: 'read more',
+                cookiePolicyLink: '',
+            });
+        </script>
+    </body>
+</html>
